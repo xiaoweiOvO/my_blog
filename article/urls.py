@@ -21,6 +21,8 @@ urlpatterns = [
     path('article_update/<int:id>/',views.article_update,name='article_update'),
     #新建栏目
     path('column_create',views.column_create,name="column_create"),
+    #点赞
+    path('clicklike/<int:article_id>',views.clicklike,name='clicklike')
 
 
 

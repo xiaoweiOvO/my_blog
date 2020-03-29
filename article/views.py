@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 
 #引入文章模型类
-from article.models import ArticlePost,ArticleColumn
+from article.models import ArticlePost,ArticleColumn,likes
 #引入markdown库
 import markdown
 #引入分页模块
@@ -135,6 +135,16 @@ def article_detail(request,id):
     article.total_views += 1
     #update_fields=[]指定了数据库只更新total_views特定字段，优化执行效率
     article.save(update_fields=['total_views'])
+    #点赞数
+    likelist = likes.objects.filter(article=article)
+    likenum = likelist.count()
+    #当前用户是否点赞
+    like = likes.objects.filter(Q(article=id) | Q(user=request.user.id))
+    if like:
+        islike = True
+    else:
+        islike = False
+
     #markdown.markdown语法接收两个参数：
     #第一个参数是需要渲染的文章正文article.body；
     #第二个参数载入了常用的语法扩展，markdown.extensions.extra中包括了缩写、表格等扩展，
@@ -169,7 +179,7 @@ def article_detail(request,id):
     #引入评论表单
     comment_form = CommentForm()
     #需要传递给模板的对象，字典格式
-    context = {'article':article,'toc':md.toc, 'comments': comments,'comment_form':comment_form}
+    context = {'article':article,'toc':md.toc, 'comments': comments,'comment_form':comment_form,'likes':likenum,'islike':islike}
     #返回模板context对象
     return render(request,'article/detail.html',context)
 
@@ -303,6 +313,18 @@ def article_update(request,id):
         #返回context给对应页面
         return render(request,'article/update.html',context)
 
+#添加或删除一条点赞信息
+def clicklike(request,article_id):
+    #根据两个id值查询是否有对应的点赞信息
+    like = likes.objects.filter(Q(article=article_id) | Q(user=request.user.id))
+    if like:
+        like.delete()
+    else:
+        article = ArticlePost.objects.get(id=article_id)
+        like = likes(article=article,user=request.user)
+        like.save()
+
+    return redirect("article:article_detail",id=article_id)
 
 
 

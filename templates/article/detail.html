@@ -28,7 +28,20 @@
                         {% endif %}
                     </div>
                     <div>
-                        浏览：{{ article.total_views }}
+                        浏览：{{ article.total_views }} &nbsp;&nbsp;
+                        <button onclick="likes()">
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;点赞&nbsp;{{ likes }}
+                        </button>
+                        {# 一个隐藏的表单 #}
+                        <form
+                                style="display: none;"
+                                id="clicklike"
+                                action="{% url 'article:clicklike' article.id %}"
+                                method="post"
+                        >
+                        {% csrf_token %}
+                            <button type="submit">发送</button>
+                        </form>
                     </div>
                     {# 一个隐藏的表单 #}
                     <form
@@ -172,22 +185,10 @@
         </div>
     </div>
     <script>
-        //删除文章的函数(不安全,不使用)
-        /*
-        function confirm_delete(){
-            //调用layer弹窗组件
-            layer.open({
-                //弹窗标题
-                title:"确认删除",
-                //正文
-                content:"确认删除这篇文章吗?",
-                //点击确认按钮后调用回调函数,里面写要前往的url地址
-                yes: function(index,layero){
-                    //指定应当前往的url
-                    location.href='{# {% url "article:article_delete" article.id %}#}'
-                }
-            })
-        }*/
+        function likes() {
+            $('form#clicklike button').click();
+            print(123)
+        }
         function confirm_safe_delete(){
             layer.open({
                 title:"确认删除",

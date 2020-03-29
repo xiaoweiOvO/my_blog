@@ -1304,3 +1304,1076 @@ Watching for file changes with StatReloader
 "GET /article/article_create/ HTTP/1.1" 200 7041
 D:\django虚拟环境\django-vir3.0-2\my_blog\article\models.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /article/article_detail/9/ HTTP/1.1" 200 14349
+"GET /article/article_detail/9/ HTTP/1.1" 200 14439
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/9/ HTTP/1.1" 200 14458
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_detail/9/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(article=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article'
+"GET /article/article_detail/9/ HTTP/1.1" 500 77533
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(id__article=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'id__article'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77297
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(article__likes=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article__likes'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77583
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(id__article__likes=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'id__article__likes'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(article=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77269
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(id_article=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'id_article'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77555
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(id_article=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'id_article'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77290
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(article__id=id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article__id'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77297
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(likes.article is id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() takes 1 positional argument but 2 were given
+"GET /article/article_detail/10/ HTTP/1.1" 500 77230
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(article_id = article.id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article_id'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77310
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14110
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likenum = likes.objects.count(article__id = article.id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article__id'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77317
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 140, in article_detail
+    likenum = likelist.length
+AttributeError: 'QuerySet' object has no attribute 'length'
+"GET /article/article_detail/10/ HTTP/1.1" 500 73166
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 140, in article_detail
+    likenum = likelist.length()
+AttributeError: 'QuerySet' object has no attribute 'length'
+"GET /article/article_detail/10/ HTTP/1.1" 500 73435
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 140, in article_detail
+    likenum = likelist.length()
+AttributeError: 'QuerySet' object has no attribute 'length'
+"GET /article/article_detail/10/ HTTP/1.1" 500 73170
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likelist = likes.objects.count(article__id = article.id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article__id'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77319
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14111
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 139, in article_detail
+    likelist = likes.objects.count(article=article)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: count() got an unexpected keyword argument 'article'
+"GET /article/article_detail/10/ HTTP/1.1" 500 77284
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14111
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 13730
+"GET /article/article_detail/10/ HTTP/1.1" 200 13730
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 13728
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14111
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 142, in article_detail
+    islike = likes.objects.exists(Q(article=id) | Q(user=request.user.id))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: exists() takes 1 positional argument but 2 were given
+"GET /article/article_detail/10/ HTTP/1.1" 500 77534
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 142, in article_detail
+    like = likes.objects.exists(Q(article=id) | Q(user=request.user.id))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+TypeError: exists() takes 1 positional argument but 2 were given
+"GET /article/article_detail/10/ HTTP/1.1" 500 77283
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 185, in article_detail
+    return render(request,'article/detail.html',context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'clicklike' not found. 'clicklike' is not a valid view function or pattern name.
+"GET /article/article_detail/10/ HTTP/1.1" 500 175054
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 13736
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 13799
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 13799
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 13754
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 13796
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 13806
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 13806
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 13806
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /comment/post_comment/10/ HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16457
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 324, in clicklike
+    like = likes(article=article_id,user=request.user.id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "10": "likes.article" must be a "ArticlePost" instance.
+"POST /article/clicklike/10 HTTP/1.1" 500 83388
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 324, in clicklike
+    like = likes(article=article_id,user=request.user.id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "10": "likes.article" must be a "ArticlePost" instance.
+"POST /article/clicklike/10 HTTP/1.1" 500 83389
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 327, in clicklike
+    return render(request,True)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\ntpath.py", line 115, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\genericpath.py", line 149, in _check_arg_types
+    (funcname, s.__class__.__name__)) from None
+TypeError: join() argument must be str or bytes, not 'bool'
+"POST /article/clicklike/10 HTTP/1.1" 500 124409
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 321, in clicklike
+    return render(request,False)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\ntpath.py", line 115, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\genericpath.py", line 149, in _check_arg_types
+    (funcname, s.__class__.__name__)) from None
+TypeError: join() argument must be str or bytes, not 'bool'
+"POST /article/clicklike/10 HTTP/1.1" 500 124459
+Watching for file changes with StatReloader
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 321, in clicklike
+    return render(request,False)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\ntpath.py", line 115, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\genericpath.py", line 149, in _check_arg_types
+    (funcname, s.__class__.__name__)) from None
+TypeError: join() argument must be str or bytes, not 'bool'
+"POST /article/clicklike/10 HTTP/1.1" 500 124459
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 327, in clicklike
+    return render(request, context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\base.py", line 18, in get_template
+    for origin in self.get_template_sources(template_name):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loaders\filesystem.py", line 36, in get_template_sources
+    name = safe_join(template_dir, template_name)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\utils\_os.py", line 17, in safe_join
+    final_path = abspath(join(base, *paths))
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\ntpath.py", line 115, in join
+    genericpath._check_arg_types('join', path, *paths)
+  File "c:\users\22839\appdata\local\programs\python\python36\lib\genericpath.py", line 149, in _check_arg_types
+    (funcname, s.__class__.__name__)) from None
+TypeError: join() argument must be str or bytes, not 'dict'
+"POST /article/clicklike/10 HTTP/1.1" 500 124671
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/clicklike/10
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 327, in clicklike
+    return render(request, context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: False
+"POST /article/clicklike/10 HTTP/1.1" 500 89333
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
