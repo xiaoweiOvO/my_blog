@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 
+from article.models import likes
 #用户扩展信息
 from django.db.models.signals import post_save
 from django.dispatch import receiver

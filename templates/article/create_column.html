@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} 新建栏目 {% endblock title %}
+{% block content %}
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <lable for="title">栏目标题</lable>
+        <input type="text" class="form-control" id="title" name="title">
+        <button type="submit" class="btn btn-primary">完成</button>
+    </form>
+{% endblock content %}

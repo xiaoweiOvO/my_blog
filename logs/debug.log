@@ -717,3 +717,590 @@ Watching for file changes with StatReloader
 "GET /article/article_list/?tag=django HTTP/1.1" 200 13915
 "GET /article/article_list/?tag=Java HTTP/1.1" 200 11556
 "GET /article/article_list/?tag=c HTTP/1.1" 200 9337
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 13907
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 304 0
+"GET /article/article_create/ HTTP/1.1" 200 7170
+"GET /article/article_create/ HTTP/1.1" 200 7353
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_create/ HTTP/1.1" 200 7176
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_create/ HTTP/1.1" 200 7216
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_create/ HTTP/1.1" 200 7224
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_create/ HTTP/1.1" 200 7224
+"GET /article/article_create/ HTTP/1.1" 200 7224
+"POST /article/article_create/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(ArticleColumn__author=User)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'ArticleColumn' into field. Choices are: article, author, author_id, created, id, title
+"GET /article/article_create/ HTTP/1.1" 500 117558
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+"GET /article/article_list/ HTTP/1.1" 200 14109
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(ArticleColumn__author=User)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'ArticleColumn' into field. Choices are: article, author, author_id, created, id, title
+"GET /article/article_create/ HTTP/1.1" 500 117558
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'ModelBase'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(author=User)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+TypeError: Field 'id' expected a number but got <class 'django.contrib.auth.models.User'>.
+"GET /article/article_create/ HTTP/1.1" 500 132347
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(author=User_id)
+NameError: name 'User_id' is not defined
+"GET /article/article_create/ HTTP/1.1" 500 77328
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(column__author=User)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'column' into field. Choices are: article, author, author_id, created, id, title
+"GET /article/article_create/ HTTP/1.1" 500 117425
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(articlecolumn__author=User)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'articlecolumn' into field. Choices are: article, author, author_id, created, id, title
+"GET /article/article_create/ HTTP/1.1" 500 117558
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'ModelBase'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(author=User)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+TypeError: Field 'id' expected a number but got <class 'django.contrib.auth.models.User'>.
+"GET /article/article_create/ HTTP/1.1" 500 132082
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'DeferredAttribute'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 235, in article_create
+    columns = ArticleColumn.objects.filter(author=User.id)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\related_lookups.py", line 115, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    ) from e
+TypeError: Field 'id' expected a number but got <django.db.models.query_utils.DeferredAttribute object at 0x000002AC4D64F668>.
+"GET /article/article_create/ HTTP/1.1" 500 132522
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Internal Server Error: /article/article_create/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 239, in article_create
+    return render(request,'article/create.html',context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_create_column' not found. 'article_create_column' is not a valid view function or pattern name.
+"GET /article/article_create/ HTTP/1.1" 500 170313
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_create/ HTTP/1.1" 200 6966
+"GET /article/article_create_column HTTP/1.1" 200 5537
+Not Found: /article/
+"POST /article/ HTTP/1.1" 404 4090
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+Not Found: /article/
+"POST /article/ HTTP/1.1" 404 4090
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_create_column HTTP/1.1" 200 5537
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Not Found: /article/
+"POST /article/ HTTP/1.1" 404 4090
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_create_column HTTP/1.1" 200 5537
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Not Found: /article/
+"POST /article/ HTTP/1.1" 404 4090
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+Not Found: /article/
+"GET /article/ HTTP/1.1" 404 4089
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /article/article_create/ HTTP/1.1" 200 6958
+"GET /article/column_create HTTP/1.1" 200 5537
+Not Found: /article/
+"POST /article/ HTTP/1.1" 404 4082
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /article/article_create/ HTTP/1.1" 200 6958
+"GET /article/column_create HTTP/1.1" 200 5539
+"POST /article/column_create HTTP/1.1" 302 0
+"GET /article/article_create/ HTTP/1.1" 200 7041
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13822
+"GET /article/article_list/?column=3 HTTP/1.1" 200 11036
+"GET /article/article_list/ HTTP/1.1" 200 14109
+"GET /article/article_list/?page=4&order=None&search=&column=None&tag=None HTTP/1.1" 200 8893
+"GET /article/article_list/?page=3&order=None&search=&column=None&tag=None HTTP/1.1" 200 13587
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13822
+"GET /article/article_list/?column=1 HTTP/1.1" 200 14097
+"GET /article/article_list/?tag=django HTTP/1.1" 200 14117
+"GET /article/article_list/?tag=Java HTTP/1.1" 200 13975
+"GET /article/article_list/?tag=c HTTP/1.1" 200 11756
+"GET /article/article_list/?tag=django HTTP/1.1" 200 14117
+"GET /article/article_list/?tag=django HTTP/1.1" 200 14117
+"GET /article/article_list/?order=total_views&search=&column=None&tag=django HTTP/1.1" 200 13180
+"GET /article/article_detail/8/ HTTP/1.1" 200 22594
+"GET /static/prism/prism.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 304 0
+"GET /article/article_create/ HTTP/1.1" 200 7041
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\models.py changed, reloading.
+Watching for file changes with StatReloader

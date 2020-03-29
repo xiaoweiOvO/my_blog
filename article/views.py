@@ -174,9 +174,26 @@ def article_detail(request,id):
     return render(request,'article/detail.html',context)
 
 #引入文章的form类
-from .forms import ArticlePostForm
+from .forms import ArticlePostForm, ArticleColumnForm
 #引入User模型类
 from django.contrib.auth.models import User
+
+#新建栏目
+@login_required(login_url='account_login')
+def column_create(request):
+    if request.method == "POST":
+        article_column_form = ArticleColumnForm(request.POST)
+        if article_column_form.is_valid():
+            new_column = article_column_form.save(commit=False)
+            new_column.author = User.objects.get(id=request.user.id)
+            new_column.save()
+            return redirect("article:article_create")
+        else:
+            return HttpResponse("表单内容有误请重新填写")
+    else:
+        article_column_form = ArticleColumnForm()
+        context = {"article_column_form":article_column_form}
+        return render(request,'article/create_column.html',context)
 
 #写文章的视图
 @login_required(login_url='account_login')
@@ -214,8 +231,8 @@ def article_create(request):
     else:
         #创建表单类实例
         article_post_form = ArticlePostForm()
-        #获取所有栏目
-        columns = ArticleColumn.objects.all()
+        #获取当前用户的所有栏目
+        columns = ArticleColumn.objects.filter(author=request.user.id)
         #赋值上下文用于返回
         context = {'article_post_form':article_post_form,'columns':columns}
         #返回给模板

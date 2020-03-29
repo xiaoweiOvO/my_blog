@@ -12,6 +12,8 @@ from taggit.managers import TaggableManager
 
 #文章的栏目模型
 class ArticleColumn(models.Model):
+    #栏目作者 外键 允许为空
+    author = models.ForeignKey(User,on_delete=models.CASCADE,null=True)
     #栏目标题
     title = models.CharField(max_length=100,blank=True)
     #创建时间
@@ -52,3 +54,11 @@ class ArticlePost(models.Model):
     # 获取文章地址    使用reverse()方法返回文章详情页面的url，实现路由重定向
     def get_absolute_url(self):
         return reverse('article:article_detail', args=[self.id])
+
+
+# 点赞关系表
+# class likes(models.Model):
+#     #被点赞的文章
+#     article = models.ForeignKey(ArticlePost,on_delete=models.CASCADE,related_name='article')
+#     #点赞的用户
+#     user = models.ForeignKey(User,on_delete=models.CASCADE,related_name='user')

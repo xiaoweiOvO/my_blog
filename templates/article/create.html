@@ -24,7 +24,7 @@
                 {# 文章栏目 #}
                 <div class="form-group">
                     <label for="column">栏目</label>
-                    <select class="form-control"
+                    <select class="form-control col-6"
                             id="column"
                             name="column"
                     >
@@ -33,6 +33,7 @@
                             <option value="{{ column.id }}">{{ column }}</option>
                         {% endfor %}
                     </select>
+                    <a href="{% url 'article:column_create' %}">新建栏目</a>
                 </div>
                 {# 文章标签 #}
                 <div class="form-group">

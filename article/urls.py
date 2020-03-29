@@ -19,7 +19,8 @@ urlpatterns = [
     path('article_safe_delete/<int:id>/',views.article_safe_delete,name='article_safe_delete'),
     #修改文章
     path('article_update/<int:id>/',views.article_update,name='article_update'),
-
+    #新建栏目
+    path('column_create',views.column_create,name="column_create"),
 
 
 
