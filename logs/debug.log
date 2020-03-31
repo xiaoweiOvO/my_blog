@@ -2377,3 +2377,1101 @@ Watching for file changes with StatReloader
 D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /article/article_detail/10/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 184, in article_detail
+    return render(request,'article/detail.html',context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'clicklike' not found. 'clicklike' is not a valid view function or pattern name.
+"GET /article/article_detail/10/ HTTP/1.1" 500 176683
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+"GET /article/article_detail/10/ HTTP/1.1" 200 18899
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/csrf.js HTTP/1.1" 200 1623
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+Method Not Allowed (POST): /article/increase-likes/10/
+Method Not Allowed: /article/increase-likes/10/
+"POST /article/increase-likes/10/ HTTP/1.1" 405 0
+Method Not Allowed (POST): /article/increase-likes/10/
+Method Not Allowed: /article/increase-likes/10/
+"POST /article/increase-likes/10/ HTTP/1.1" 405 0
+Method Not Allowed (POST): /article/increase-likes/10/
+Method Not Allowed: /article/increase-likes/10/
+"POST /article/increase-likes/10/ HTTP/1.1" 405 0
+Method Not Allowed (POST): /article/increase-likes/10/
+Method Not Allowed: /article/increase-likes/10/
+"POST /article/increase-likes/10/ HTTP/1.1" 405 0
+Method Not Allowed (POST): /article/increase-likes/10/
+Method Not Allowed: /article/increase-likes/10/
+"POST /article/increase-likes/10/ HTTP/1.1" 405 0
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+Watching for file changes with StatReloader
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16419
+"GET /article/article_detail/10/ HTTP/1.1" 200 16409
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16409
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16409
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16409
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16413
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16413
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 16453
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16452
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16453
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16452
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16452
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/9/ HTTP/1.1" 200 14648
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16452
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16453
+"GET /article/article_detail/10/ HTTP/1.1" 200 16333
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_list/ HTTP/1.1" 200 14111
+"GET /article/article_detail/9/ HTTP/1.1" 200 14529
+"POST /article/clicklike/9 HTTP/1.1" 302 0
+"GET /article/article_detail/9/ HTTP/1.1" 200 14528
+"GET /article/article_detail/9/ HTTP/1.1" 200 14534
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /article/clicklike/9 HTTP/1.1" 302 0
+"GET /article/article_detail/9/ HTTP/1.1" 200 14535
+"POST /article/clicklike/9 HTTP/1.1" 302 0
+"GET /article/article_detail/9/ HTTP/1.1" 200 14535
+"POST /article/clicklike/9 HTTP/1.1" 302 0
+"GET /article/article_detail/9/ HTTP/1.1" 200 14536
+"POST /article/clicklike/9 HTTP/1.1" 302 0
+"GET /article/article_detail/9/ HTTP/1.1" 200 14535
+"POST /article/clicklike/9 HTTP/1.1" 302 0
+"GET /article/article_detail/9/ HTTP/1.1" 200 14536
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /article/article_detail/9/ HTTP/1.1" 200 14536
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /article/article_list/?order=total_views&search=&column=None&tag=None HTTP/1.1" 200 14020
+"GET /article/article_detail/1/ HTTP/1.1" 200 62871
+"GET /article/article_create/ HTTP/1.1" 200 7041
+"GET /article/column_create HTTP/1.1" 200 5539
+"GET /article/article_create/ HTTP/1.1" 200 7041
+"GET /article/article_create/ HTTP/1.1" 200 7041
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /article/article_detail/10/ HTTP/1.1" 200 16339
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 304 0
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /userprofile/edit/1/ HTTP/1.1" 200 6448
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /article/article_detail/10/ HTTP/1.1" 200 16339
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /userprofile/edit/1/ HTTP/1.1" 200 6448
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 304 0
+"GET /userprofile/personal/2 HTTP/1.1" 200 5886
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/edit/1/ HTTP/1.1" 200 6448
+"POST /userprofile/edit/1/ HTTP/1.1" 302 0
+"GET /userprofile/edit/1/ HTTP/1.1" 200 6718
+"GET /article/article_list/ HTTP/1.1" 200 14112
+Not Found: /userprofile/personal/1/
+"GET /userprofile/personal/1/ HTTP/1.1" 404 4048
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+Not Found: /userprofile/personal/2/
+"GET /userprofile/personal/2/ HTTP/1.1" 404 4048
+"GET /userprofile/personal/2 HTTP/1.1" 200 5886
+"GET /userprofile/personal/1 HTTP/1.1" 200 6155
+"GET /userprofile/personal/1 HTTP/1.1" 200 5614
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6111
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6213
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6165
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6190
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6186
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6182
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6476
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6497
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6518
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 6612
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6633
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6653
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6612
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 6612
+"GET /userprofile/personal/1 HTTP/1.1" 200 6612
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /userprofile/personal/1 HTTP/1.1" 200 6516
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 31076
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 31076
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 31086
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 31085
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_list/?column=1 HTTP/1.1" 200 14100
+"GET /article/article_detail/9/ HTTP/1.1" 200 14536
+"GET /static/prism/prism.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/lang/en.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=JB9C HTTP/1.1" 304 0
+"GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 304 0
+"GET /article/article_list/ HTTP/1.1" 200 14112
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16339
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16338
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16339
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16362
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16361
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16362
+"GET /article/article_detail/10/ HTTP/1.1" 200 16362
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16360
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16362
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16360
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13822
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13822
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/7/ HTTP/1.1" 200 15076
+Watching for file changes with StatReloader
+"GET /article/article_detail/7/ HTTP/1.1" 200 15114
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 31842
+"GET /article/article_list/ HTTP/1.1" 200 14112
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 12533
+"GET /accounts/login/ HTTP/1.1" 200 6682
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 14113
+"GET /article/article_detail/10/ HTTP/1.1" 200 16139
+"GET /userprofile/personal/1 HTTP/1.1" 200 31843
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31843
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/10/ HTTP/1.1" 200 16139
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16140
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16139
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /article/clicklike/10 HTTP/1.1" 302 0
+"GET /article/article_detail/10/ HTTP/1.1" 200 16140
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /article/article_detail/10/ HTTP/1.1" 200 16140
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31843
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 14113
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16140
+"GET /userprofile/personal/1 HTTP/1.1" 200 31866
+"GET /userprofile/personal/1 HTTP/1.1" 200 31868
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31845
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16141
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31846
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31856
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/10/ HTTP/1.1" 200 16141
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31856
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /userprofile/focus/1 HTTP/1.1" 302 0
+"GET /userprofile/personal/1 HTTP/1.1" 200 31856
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31854
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"POST /userprofile/focus/1 HTTP/1.1" 302 0
+"GET /userprofile/personal/1 HTTP/1.1" 200 31854
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /userprofile/focus/1 HTTP/1.1" 302 0
+"GET /userprofile/personal/1 HTTP/1.1" 200 31854
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"POST /userprofile/focus/1 HTTP/1.1" 302 0
+"GET /userprofile/personal/1 HTTP/1.1" 200 31854
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/1 HTTP/1.1" 200 31881
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/1 HTTP/1.1" 200 31880
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_list/ HTTP/1.1" 200 14114
+"GET /article/article_detail/10/ HTTP/1.1" 200 16141
+"GET /userprofile/personal/1 HTTP/1.1" 200 31880
+"GET /article/article_detail/10/ HTTP/1.1" 200 16141
+"GET /userprofile/personal/1 HTTP/1.1" 200 31880
+"POST /userprofile/focus/1 HTTP/1.1" 302 0
+"GET /userprofile/personal/1 HTTP/1.1" 200 31880
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6450
+"GET /article/article_create/ HTTP/1.1" 200 6959
+"GET /article/article_list/ HTTP/1.1" 200 14114
+"GET /article/article_create/ HTTP/1.1" 200 6959
+"GET /article/column_create HTTP/1.1" 200 5540
+"POST /article/column_create HTTP/1.1" 302 0
+"GET /article/article_create/ HTTP/1.1" 200 7047
+"POST /article/article_create/ HTTP/1.1" 200 33
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+"GET /article/article_create/ HTTP/1.1" 200 7047
+"POST /article/article_create/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 13976
+"GET /article/article_detail/11/ HTTP/1.1" 200 13795
+"GET /userprofile/personal/2 HTTP/1.1" 200 9473
+"POST /userprofile/focus/2 HTTP/1.1" 302 0
+"GET /userprofile/personal/2 HTTP/1.1" 200 9473
+"POST /userprofile/focus/2 HTTP/1.1" 302 0
+"GET /userprofile/personal/2 HTTP/1.1" 200 9473
+"GET /article/article_list/?tag=xiaowei HTTP/1.1" 200 8569
+D:\django虚拟环境\django-vir3.0-2\my_blog\userprofile\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 13976
+"GET /article/article_detail/10/ HTTP/1.1" 200 16141
+"GET /userprofile/personal/1 HTTP/1.1" 200 31880
+"GET /userprofile/personal/1 HTTP/1.1" 200 31979
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/2 HTTP/1.1" 200 9572
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6549
+"POST /userprofile/edit/2/ HTTP/1.1" 302 0
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6770
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /article/article_list/ HTTP/1.1" 200 14075
+"GET /userprofile/personal/2 HTTP/1.1" 200 9662
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_list/ HTTP/1.1" 200 14075
+"GET /article/article_detail/10/ HTTP/1.1" 200 16240
+"GET /userprofile/personal/1 HTTP/1.1" 200 31979
+"GET /userprofile/personal/2 HTTP/1.1" 200 9662
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6770
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 304 0
+"POST /userprofile/edit/2/ HTTP/1.1" 302 0
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6779
+"GET /userprofile/personal/2 HTTP/1.1" 200 9671
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6779
+"POST /userprofile/edit/2/ HTTP/1.1" 302 0
+"GET /userprofile/edit/2/ HTTP/1.1" 200 6869
+"GET /userprofile/personal/2 HTTP/1.1" 200 9761
+"GET /article/article_list/ HTTP/1.1" 200 14075
+"GET /article/article_list/?order=total_views&search=&column=None&tag=None HTTP/1.1" 200 14121
+"GET /article/article_list/?search=&column=None&tag=None HTTP/1.1" 200 14075
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13793
+"GET /article/article_list/?page=3&order=None&search=&column=None&tag=None HTTP/1.1" 200 13918
+"GET /article/article_detail/5/ HTTP/1.1" 200 14670
+"GET /userprofile/personal/1 HTTP/1.1" 200 31979
+"GET /userprofile/personal/1 HTTP/1.1" 200 32064
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/2 HTTP/1.1" 200 9873
+Not Found: /userprofile/personal/avatar/20200331/head001.jpg
+"GET /userprofile/personal/avatar/20200331/head001.jpg HTTP/1.1" 404 4316
+"GET /userprofile/personal/2 HTTP/1.1" 200 9873
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+Not Found: /userprofile/personal/avatar/20200331/head001.jpg
+"GET /userprofile/personal/avatar/20200331/head001.jpg HTTP/1.1" 404 4316
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/2 HTTP/1.1" 200 9880
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/2 HTTP/1.1" 200 9923
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/2 HTTP/1.1" 200 9923
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /userprofile/personal/2 HTTP/1.1" 200 9923
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/2 HTTP/1.1" 200 9915
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/personal/2 HTTP/1.1" 200 9956
+"GET /static/md_css/monokai.css HTTP/1.1" 200 8504
+"GET /media/avatar/20200331/head001.jpg HTTP/1.1" 200 25969
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /article/article_detail/11/ HTTP/1.1" 200 13894
+"GET /article/article_create/ HTTP/1.1" 200 7146
+"GET /article/article_list/ HTTP/1.1" 200 14075
+"GET /userprofile/personal/2 HTTP/1.1" 200 9956
+"GET /notice/list/ HTTP/1.1" 200 5658
+"GET /article/article_list/ HTTP/1.1" 200 14075

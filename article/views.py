@@ -321,8 +321,8 @@ def clicklike(request,article_id):
         like.delete()
     else:
         article = ArticlePost.objects.get(id=article_id)
-        like = likes(article=article,user=request.user)
-        like.save()
+        newlike = likes(article=article,user=request.user)
+        newlike.save()
 
     return redirect("article:article_detail",id=article_id)
 

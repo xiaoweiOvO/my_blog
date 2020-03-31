@@ -19,7 +19,7 @@
                 {# 文章信息 #}
                 <div class="col-12 alert alert-success">
                     <div>
-                        作者：{{ article.author }}
+                        作者：<a href="{% url 'userprofile:personal' article.author.id %}">{{ article.author }}</a>
                         {% if user == article.author %}
                             {# 为防止用户误操作,不设置点击直接调用删除视图函数 #}
                             {# 设置onclick属性,调用下面的确认函数,点击确认后才调用视图函数 #}
@@ -29,19 +29,6 @@
                     </div>
                     <div>
                         浏览：{{ article.total_views }} &nbsp;&nbsp;
-                        <button onclick="likes()">
-                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;点赞&nbsp;{{ likes }}
-                        </button>
-                        {# 一个隐藏的表单 #}
-                        <form
-                                style="display: none;"
-                                id="clicklike"
-                                action="{% url 'article:clicklike' article.id %}"
-                                method="post"
-                        >
-                        {% csrf_token %}
-                            <button type="submit">发送</button>
-                        </form>
                     </div>
                     {# 一个隐藏的表单 #}
                     <form
@@ -59,6 +46,25 @@
                     {# django会自动将输出的html进行转义 过滤器safe表示这里不需要转义 #}
                     <p>{{ article.body|safe }}</p>
                 </div>
+                {% if islike %}
+                    <button onclick="likes()"  class="btn btn-light">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp;已点赞&nbsp;{{ likes }}
+                    </button>
+                {% else %}
+                    <button onclick="likes()"  class="btn btn-light">
+                        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp;点赞&nbsp;{{ likes }}
+                    </button>
+                {% endif %}
+                {# 一个隐藏的表单 #}
+                <form
+                        style="display: none;"
+                        id="clicklike"
+                        action="{% url 'article:clicklike' article.id %}"
+                        method="post"
+                >
+                {% csrf_token %}
+                    <button type="submit">发送</button>
+                </form>
                 {# 发表评论 #}
                 {% if user.is_authenticated %}
                     <div>
@@ -187,7 +193,6 @@
     <script>
         function likes() {
             $('form#clicklike button').click();
-            print(123)
         }
         function confirm_safe_delete(){
             layer.open({

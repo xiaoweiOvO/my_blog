@@ -1,13 +1,58 @@
+from article.models import ArticlePost
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from django.db.models import Q
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
 from .forms import UserLoginForm, UserRegisterForm
-from .models import Profile
+from .models import Profile, likes, userfocus
 from .forms import ProfileForm
+
+#关注按钮点击
+def clickfocus(request,id):
+    #根据当前用户id和id查询关注信息表
+    focusrecoder = userfocus.objects.filter(Q(blogger_id=id) | Q(fans_id=request.user.id))
+    if focusrecoder:
+        focusrecoder.delete()
+    else:
+        newfocus = userfocus(blogger=User.objects.get(id=id),fans=request.user)
+        newfocus.save()
+    return redirect("userprofile:personal",id)
+
+
+#用户主页信息
+def user_personal(request,id):
+    #用户对象实例
+    user = User.objects.get(id=id)
+    #用户扩展信息实例
+    profile = Profile.objects.get(user_id=id)
+    #用户写的文章列表
+    articles = ArticlePost.objects.filter(author_id=id)
+    articlenum = articles.count()
+    #点赞数
+    likenum = 0
+    for article in articles:
+        likelist = likes.objects.filter(article_id=article.id)
+        likenum += likelist.count()
+    #关注数
+    focuslist = userfocus.objects.filter(fans_id=id)
+    focusnum = focuslist.count()
+    #粉丝数
+    fanslist = userfocus.objects.filter(blogger_id=id)
+    fansnum = fanslist.count()
+    #是否已经关注
+    focusrecoder = userfocus.objects.filter(Q(blogger_id=id) | Q(fans_id=request.user.id))
+    if focusrecoder:
+        isfocus = True
+    else:
+        isfocus = False
+
+    #上下文
+    context = {'blogger':user,'profile':profile,'likenum':likenum,'focusnum':focusnum,'fansnum':fansnum,'articlenum':articlenum,'articles':articles,'isfocus':isfocus}
+    return render(request,'userprofile/personal.html',context)
 
 def user_login(request):
     #post请求提交表单

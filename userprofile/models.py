@@ -8,6 +8,13 @@ from article.models import likes
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
+#关注关系表
+class userfocus(models.Model):
+    #博主
+    blogger = models.ForeignKey(User,on_delete=models.CASCADE,related_name='blogger')
+    #粉丝
+    fans = models.ForeignKey(User,on_delete=models.CASCADE,related_name='fans')
+
 
 class Profile(models.Model):
     #与User模型构成一对一的关系
