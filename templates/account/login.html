@@ -11,12 +11,12 @@
             {% get_providers as socialaccount_providers %}
             {% if socialaccount_providers %}
             <p>
-                {% blocktrans with site.name as site_name %}请登录已有本地账号或<a href="{{ signup_url }}">注册</a>新账号。
-                也可以通过第三方登录:{% endblocktrans %}
+                请登录已有本地账号或<a href="{% url 'userprofile:register' %}">注册</a>新账号。
+                也可以通过第三方平台账号登录:
             </p>
 
             <div class="socialaccount_ballot">
-                <h5 class="mb-2 mt-4">第三方登录：</h5>
+                <h5 class="mb-2 mt-4">第三方平台登录：</h5>
                 <ul class="socialaccount_providers">
                   {% include "socialaccount/snippets/provider_list.html" with process="login" %}
                 </ul>
@@ -38,7 +38,7 @@
                             id="id_login" class="form-control" />
                         <small class="form-text text-muted ml-1">
                             还没有账号？
-                            <a href="{% url 'account_signup' %}" style="color: cornflowerblue; ">
+                            <a href="{% url 'userprofile:register' %}" style="color: cornflowerblue; ">
                                 注册新账号
                             </a>
                         </small>

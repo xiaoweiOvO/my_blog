@@ -22,8 +22,7 @@ urlpatterns = [
     #新建栏目
     path('column_create',views.column_create,name="column_create"),
     #点赞
-    path('clicklike/<int:article_id>',views.clicklike,name='clicklike')
-
-
-
+    path('clicklike/<int:article_id>',views.clicklike,name='clicklike'),
+    #推荐
+    path('Recommendation/',views.Recommendation,name='Recommendation')
 ]

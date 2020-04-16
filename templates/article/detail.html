@@ -17,7 +17,7 @@
             <div class="col-9">
                 <h1 class="col-12 mt-4 mb-4">{{ article.title }}</h1>
                 {# 文章信息 #}
-                <div class="col-12 alert alert-success">
+                <div class="col-12 alert alert-primary">
                     <div>
                         作者：<a href="{% url 'userprofile:personal' article.author.id %}">{{ article.author }}</a>
                         {% if user == article.author %}

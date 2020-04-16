@@ -7,10 +7,17 @@
 {% block title%}
 首页
 {% endblock %}
+{% block style %}
+<style>
+.container{
+    {#background-color: #FCFCE0;#}
+}
+</style>
+{% endblock %}
 
 {# 主体content的block部分 #}
 {% block content %}
-<div class="container">
+<div class="container" id="body">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -21,6 +28,11 @@
             <li class="breadcrumb-item">
                 <a href="{% url 'article:article_list' %}?order=total_views&search={{ search }}&column={{ column }}&tag={{ tag }}">
                     最热
+                </a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="{% url 'article:Recommendation' %}">
+                    推荐
                 </a>
             </li>
         </ol>
@@ -49,14 +61,14 @@
             <hr>
         {% endif %}
     {% endif %}
-    <div class="row mt-2">
+    <div class="row mt-2 col-10">
         {# 遍历articles列表 #}
         {% for article in articles %}
             {# 文章内容 #}
-            <div class="col-9">
+            <div class="col-12">
                 {# 栏目 #}
                 {% if article.column %}
-                    <button type="button" class="btn btn-sm mb-2 btn-success" onclick='window.location.href="{% url 'article:article_list' %}?column={{ article.column.id }}"'>
+                    <button type="button" style="background-color: #70D484;color: white;border: none;" class="btn btn-sm mb-2 btn-success" onclick='window.location.href="{% url 'article:article_list' %}?column={{ article.column.id }}"'>
                         {{ article.column }}
                     </button>
                 {% endif %}
@@ -66,6 +78,7 @@
                         {# 返回文章列表的链接，带有当前的tag参数 #}
                         <a href="{% url 'article:article_list' %}?tag={{ tag }}"
                            class="badge badge-secondary"
+                           style="background: #A2A2A2"
                         >
                             {{ tag }}
                         </a>
@@ -91,19 +104,20 @@
                 <p>
                     <span style="color: green;">
                         <i class="fa fa-eye"></i>
-                        {{ article.total_views }} 浏览&nbsp;&nbsp;&nbsp;
+                        {{ article.total_views }} &nbsp;&nbsp;&nbsp;
                     </span>
                     <span>
                         <i class="fa fa-comments" style="color: yellowgreen;"></i>
                         <!-- 修改为评论的计数 -->
                         {{ article.comments.count }}&nbsp;&nbsp;&nbsp;
                     </span>
-                    <span style="color: blue;">
-                        {{ article.created|date:'Y-m-d' }} 发布&nbsp;&nbsp;&nbsp;
+                    <span style="color: #11A0FF;">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        {{ article.created|date:'Y-m-d' }} &nbsp;&nbsp;&nbsp;
                     </span>
-                    <span style="color: darkred;">
-
-                        {{ article.updated|date:'Y-m-d' }} 更新
+                    <span style="color: #FF4444;">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        {{ article.updated|date:'Y-m-d' }}
                     </span>
                 </p>
                 <hr>
@@ -113,30 +127,51 @@
     </div>
 </div>
 <!-- 页码导航 -->
-<div class="pagination row">
-    <div class="m-auto">
-        <span class="step-links">
-            <!-- 如果不是第一页，则显示上翻按钮 -->
+{#<div class="pagination row">#}
+{#    <div class="m-auto">#}
+{#        <span class="step-links">#}
+{#            <!-- 如果不是第一页，则显示上翻按钮 -->#}
+{#            {% if articles.has_previous %}#}
+{#                <a href="?page=1&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" class="btn btn-info">&laquo; 1</a>#}
+{#                <span>...</span>#}
+{#                <a href="?page={{ articles.previous_page_number }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" class="btn btn-secondary">#}
+{#                    {{ articles.previous_page_number }}#}
+{#                </a>#}
+{#            {% endif %}#}
+{##}
+{#            <!-- 当前页面 -->#}
+{#            <span class="current btn btn-success btn-lg">#}
+{#                {{ articles.number }}#}
+{#            </span>#}
+{##}
+{#            <!-- 如果不是最末页，则显示下翻按钮 -->#}
+{#            {% if articles.has_next %}#}
+{#                <a href="?page={{ articles.next_page_number }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" class="btn btn-secondary">{{ articles.next_page_number }}</a>#}
+{#                <span>...</span>#}
+{#                <a href="?page={{ articles.paginator.num_pages }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}"class="btn btn-info">{{ articles.paginator.num_pages }} &raquo;</a>#}
+{#            {% endif %}#}
+{#        </span>#}
+{#    </div>#}
+{#</div>#}
+<div style="width: 100%">
+    <nav aria-label="..." style="margin-left: 50%;">
+        <ul class="pagination" style="text-align: center;list-style: none;">
+            <li class="page-item"><a class="page-link" href="?page=1&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" tabindex="-1" aria-disabled="true">首页</a></li>
+            {# 存在上一页则按钮可用 #}
             {% if articles.has_previous %}
-                <a href="?page=1&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" class="btn btn-info">&laquo; 1</a>
-                <span>...</span>
-                <a href="?page={{ articles.previous_page_number }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" class="btn btn-secondary">
-                    {{ articles.previous_page_number }}
-                </a>
+                <li class="page-item"><a class="page-link" href="?page={{ articles.previous_page_number }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+            {# 不存在上一页则不可用 #}
+            {% else %}
+                <li class="page-item disabled"><a class="page-link" href="" tabindex="-1" aria-disabled="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
             {% endif %}
-
-            <!-- 当前页面 -->
-            <span class="current btn btn-success btn-lg">
-                {{ articles.number }}
-            </span>
-
-            <!-- 如果不是最末页，则显示下翻按钮 -->
+            <li class="page-item active" aria-current="page"><a class="page-link" href="#">{{ articles.number }} <span class="sr-only">(current)</span></a></li>
             {% if articles.has_next %}
-                <a href="?page={{ articles.next_page_number }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}" class="btn btn-secondary">{{ articles.next_page_number }}</a>
-                <span>...</span>
-                <a href="?page={{ articles.paginator.num_pages }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}"class="btn btn-info">{{ articles.paginator.num_pages }} &raquo;</a>
+            <li class="page-item"><a class="page-link" href="?page={{ articles.next_page_number }}&order={{ order }}&search={{ search }}&column={{ column }}&tag={{ tag }}"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+            {% else %}
+            <li class="page-item disabled"><a class="page-link" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
             {% endif %}
-        </span>
-    </div>
+            <li class="page-item"><a class="page-link" href="#">尾页</a></li>
+        </ul>
+    </nav>
 </div>
 {% endblock %}

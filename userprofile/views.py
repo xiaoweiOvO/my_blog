@@ -63,7 +63,6 @@ def user_login(request):
             #.cleaned_data,清洗出合法数据
             print(user_login_form)
             data = user_login_form.cleaned_data
-            print(data)
             #检验账号密码是否正确匹配数据库的某个用户
             #如果均匹配成功则返回这个user对象
             user = authenticate(username=data['username'], password=data['password'])

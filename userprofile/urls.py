@@ -18,5 +18,4 @@ urlpatterns = [
     path('personal/<int:id>',views.user_personal,name='personal'),
     #点击关注按钮
     path('focus/<int:id>',views.clickfocus,name='focus'),
-
 ]

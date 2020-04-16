@@ -22,6 +22,91 @@ class ArticleListView(View):
         context = {'article':articles}
         return render(request,'article/list.html',context)
 
+#文章推荐
+@login_required(login_url='account_login')
+def Recommendation(request):
+    #当前用户
+    thisuser = User.objects.get(id=request.user.id)
+    #获取用户的点赞文章列表
+    likelist = likes.objects.filter(user=request.user.id)
+    likearticlelist = []
+    for like in likelist:
+        likearticlelist.append(like.article)
+    #求标签向量平均值
+    #标签字典的列表
+    tagDictionaries = []
+    for article in likearticlelist:
+        #每篇文章对应标签字典
+        tagDictionary = {}
+        #给标签字典赋值
+        tags = article.tags.slugs()
+        for tag in tags:
+            tagDictionary[tag] = 1
+        #将字典添加到列表中
+        tagDictionaries.append(tagDictionary)
+    # print("标签字典的列表：")
+    # print(tagDictionaries)
+    #求标签平均值
+    taglike = {}
+    #遍历标签字典列表
+    for tagDictionary in tagDictionaries:
+        #遍历当前标签字典
+        for tag in tagDictionary:
+            #如果当前标签在taglike中已存在
+            if tag in taglike:
+                #值加一
+                taglike[tag] += 1
+            #不存在则添加新键值对
+            else:
+                taglike[tag] = 1
+    for key in taglike.keys():
+        taglike[key] /= len(tagDictionaries)
+    #现在用taglike字典的值表示用户对某标签的喜爱程度
+    # print("标签平均值：")
+    # print(taglike)
+    #接下来将博客系统的文章列表按照  算法公式的值  排序
+    #所有文章列表
+    articlelist = ArticlePost.objects.all()
+    #公式计算用户对任一文章的喜爱程度，存在字典中
+    #文章id与喜爱度对应的字典
+    howlike = {}
+    #遍历所有文章的列表
+    for onearticle in articlelist:
+        #每篇文章的标签字典
+        tagDictionary = {}
+        #赋值标签字典
+        tags = onearticle.tags.slugs()
+        for tag in tags:
+            tagDictionary[tag] = 1
+        #计算当前的文章标签字典与平均值字典之间的向量距离
+        distance2 = 0
+        #遍历用户标签字典
+        for key,value in taglike.items():
+            #如果当前标签在内容标签中存在
+            if key in tagDictionary:
+                distance2 += (value-tagDictionary[key])**2
+            else:
+                distance2 += value**2
+        #遍历内容标签字典
+        for key,value in tagDictionary.items():
+            if not key in taglike:
+                distance2 += value**2
+        distance = distance2**0.5
+        #将文章id和距离添加到字典中
+        howlike[onearticle.id] = distance
+    #将得到的文章id与喜爱程度字典排序
+    sortdict = dict(sorted(howlike.items(),key=lambda x: x[1]))
+    articles = []
+    for key,value in sortdict.items():
+        article = ArticlePost.objects.get(id=key)
+        articles.append(article)
+    paginator = Paginator(articles, 3)
+    page = request.GET.get('page')
+    articles = paginator.get_page(page)
+    context = {"articles":articles}
+    return render(request, 'article/list.html', context)
+
+
 #文章列表的视图函数(旧，不再使用)
 '''
 def article_list(request):
@@ -139,7 +224,7 @@ def article_detail(request,id):
     likelist = likes.objects.filter(article=article)
     likenum = likelist.count()
     #当前用户是否点赞
-    like = likes.objects.filter(Q(article=id) | Q(user=request.user.id))
+    like = likes.objects.filter(Q(article=id) & Q(user=request.user.id))
     if like:
         islike = True
     else:
@@ -258,7 +343,6 @@ def article_delete(request,id):
     return redirect("article:article_list")
 
 @login_required(login_url='account_login')
-#安全删除
 def article_safe_delete(request,id):
     #根据id获取要删除的文章对象
     article = ArticlePost.objects.get(id=id)
@@ -316,7 +400,7 @@ def article_update(request,id):
 #添加或删除一条点赞信息
 def clicklike(request,article_id):
     #根据两个id值查询是否有对应的点赞信息
-    like = likes.objects.filter(Q(article=article_id) | Q(user=request.user.id))
+    like = likes.objects.filter(Q(article=article_id) & Q(user=request.user.id))
     if like:
         like.delete()
     else:

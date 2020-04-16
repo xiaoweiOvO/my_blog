@@ -2,10 +2,12 @@
 {% load notifications_tags %}
 {% notifications_unread as unread_count %}
 {# 导航栏 #}
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg  navbar-light bg-light">
   <div class="container">
+
+
     {# 导航栏标题 #}
-    <a class="navbar-brand" href="#">我的博客</a>
+    <a class="navbar-brand" href="#">旺仔小EZ</a>
 
     {# 导航栏链接 #}
     <div>
@@ -14,11 +16,6 @@
         <li class="nav-item">
             {# 指向文章列表的链接 #}
           <a class="nav-link" href="{% url 'article:article_list' %}">首页</a>
-        </li>
-        {# 写文章链接 #}
-        <li class="nav-item">
-            {# 指向写文章的链接 #}
-            <a class="nav-link" href="{% url 'article:article_create' %}">写博客</a>
         </li>
         {# if语句判断是否已经登录 #}
         {# .is_authenticated是models.User类的属性,用于判断用户是否已经通过身份验证 #}
@@ -47,6 +44,7 @@
                         <span class="badge badge-danger">{{ unread_count }}</span>
                         {% endif %}
                     </a>
+                    <a class="dropdown-item" href="{% url 'article:article_create' %}">写博客</a>
                     <a class="dropdown-item" href='{% url "userprofile:personal" user.id %}'>个人主页</a>
                     <a class="dropdown-item" href='{% url "userprofile:edit" user.id %}'>修改个人信息</a>
                     <a class="dropdown-item" href="#" onclick="user_delete()">注销账号</a>
