@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72674f0-2e62-410e-ae66-1a35d6e35025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/settings.py" afterDir="false" />
@@ -72,7 +73,27 @@
       <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mytest">
+  <component name="RunManager" selected="Django tests.Test: static.game-cat">
+    <configuration name="Test: static.game-cat" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="my_blog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="static.game-cat" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my_blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: static.game-cat" />
         <item itemvalue="Python.mytest" />
       </list>
     </recent_temporary>
@@ -161,7 +183,7 @@
       <workItem from="1588408284305" duration="2631000" />
       <workItem from="1588589834351" duration="4002000" />
       <workItem from="1588640805855" duration="8057000" />
-      <workItem from="1590648230642" duration="101000" />
+      <workItem from="1590648230642" duration="1359000" />
     </task>
     <servers />
   </component>
