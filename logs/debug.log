@@ -7044,3 +7044,278 @@ Watching for file changes with StatReloader
 "GET /article/Recommendation/?page=2&order=&search=&column=&tag= HTTP/1.1" 200 15007
 D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14750
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/md_css/perldoc.css HTTP/1.1" 200 8436
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/mystyle/header.css HTTP/1.1" 200 0
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/mystyle/footer.css HTTP/1.1" 200 0
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/16/ HTTP/1.1" 200 25041
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16525
+"GET /article/article_detail/16/ HTTP/1.1" 200 29655
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/ckeditor/ckeditor/lang/en.js?t=JB9C HTTP/1.1" 200 18888
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 200 47977
+"GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 200 5579
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=JB9C HTTP/1.1" 200 3824
+"GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=JB9C HTTP/1.1" 200 4203
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 200 419
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 200 1306
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 200 381
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=JB9C HTTP/1.1" 200 369
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=JB9C HTTP/1.1" 200 597
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 200 12421
+"GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 200 3094
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2062
+"GET /article/article_list/ HTTP/1.1" 200 16525
+"GET /article/article_list/?column=6 HTTP/1.1" 200 16513
+"GET /article/article_list/?page=2&order=None&search=&column=6&tag=None HTTP/1.1" 200 10580
+"GET /article/article_detail/13/ HTTP/1.1" 200 24888
+"GET /article/article_list/ HTTP/1.1" 200 16525
+Watching for file changes with StatReloader
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 11997
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+"GET /static/admin/css/base.css HTTP/1.1" 200 16378
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18052
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+"GET / HTTP/1.1" 200 16525
+"GET /admin/ HTTP/1.1" 200 11871
+"GET /admin/password_change/ HTTP/1.1" 200 2863
+"GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+"GET /admin/ HTTP/1.1" 200 11871
+Watching for file changes with StatReloader
+"GET /article/article_list/ HTTP/1.1" 200 16525
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"GET /userprofile/register/ HTTP/1.1" 200 5140
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"GET /accounts/github/login/?process=login HTTP/1.1" 302 0
+"GET /accounts/github/login/callback/?code=8cbe93784ea734b645a8&state=aGHZw9bA20la HTTP/1.1" 200 3688
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"GET /static/md_css/perldoc.css HTTP/1.1" 200 8436
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/mystyle/header.css HTTP/1.1" 200 0
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/mystyle/footer.css HTTP/1.1" 200 0
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"GET /accounts/github/login/?process=login HTTP/1.1" 302 0
+"GET /accounts/github/login/callback/?code=8fe27f344662a2c8ccd1&state=ZtADoqRHBxSP HTTP/1.1" 200 3688
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"POST /accounts/login/ HTTP/1.1" 200 6463
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16525
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /article/article_detail/16/ HTTP/1.1" 200 29655
+"GET /userprofile/personal/1 HTTP/1.1" 200 47557
+"GET /notice/list/ HTTP/1.1" 200 5771
+"GET /article/article_list/ HTTP/1.1" 200 16525
+"GET /article/article_detail/16/ HTTP/1.1" 200 29655
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 16526
+"GET /article/article_detail/16/ HTTP/1.1" 200 29395
+"POST /comment/post_comment/16/ HTTP/1.1" 302 0
+"GET /article/article_detail/16/ HTTP/1.1" 200 32060
+"GET /comment/post_comment/16/25 HTTP/1.1" 200 3693
+"GET /static/csrf.js HTTP/1.1" 200 1623
+"POST /comment/post_comment/16/25 HTTP/1.1" 200 40
+"GET /article/article_detail/16 HTTP/1.1" 301 0
+"GET /article/article_detail/16/ HTTP/1.1" 200 35833
+"GET /notice/list/ HTTP/1.1" 200 6877
+"GET /notice/list/ HTTP/1.1" 200 6877
+"GET /notice/update/?article_id=16&notice_id=9 HTTP/1.1" 302 0
+"GET /article/article_detail/16/ HTTP/1.1" 200 35308
+"POST /comment/post_comment/16/ HTTP/1.1" 302 0
+"GET /article/article_detail/16/ HTTP/1.1" 200 37970
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /accounts/login/ HTTP/1.1" 200 6463
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 17050
+"GET /notice/list/ HTTP/1.1" 200 7457
+"GET /article/article_list/ HTTP/1.1" 200 17050
+"GET /userprofile/edit/1/ HTTP/1.1" 200 7456
+"GET /article/article_create/ HTTP/1.1" 200 7887
+"GET /userprofile/personal/1 HTTP/1.1" 200 48082
+"GET /article/article_list/ HTTP/1.1" 200 17050
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14750
+"GET /static/md_css/perldoc.css HTTP/1.1" 200 8436
+"GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 159515
+"GET /static/popper/popper-1.14.4.js HTTP/1.1" 200 87917
+"GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 60024
+"GET /static/layer/layer.js HTTP/1.1" 200 22116
+"GET /static/mystyle/header.css HTTP/1.1" 200 0
+"GET /static/mystyle/footer.css HTTP/1.1" 200 0
+"GET /static/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/jquery/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+"GET /static/layer/theme/default/layer.css?v=3.1.1 HTTP/1.1" 200 14367
+"GET /static/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/images/favicon.ico HTTP/1.1" 200 67134
+"GET /article/article_detail/16/ HTTP/1.1" 200 33265
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99483
+"GET /static/prism/prism.css HTTP/1.1" 200 6525
+"GET /static/sticky_sidebar/jquery.sticky-sidebar.min.js HTTP/1.1" 200 12485
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13644
+"GET /article/article_detail/12/ HTTP/1.1" 200 9985
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13644
+"GET /article/article_detail/11/ HTTP/1.1" 200 12259
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /article/article_list/?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 13644
+"GET /article/article_detail/13/ HTTP/1.1" 200 20274
+Internal Server Error: /article/clicklike/13
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\article\views.py", line 408, in clicklike
+    newlike = likes(article=article,user=request.user)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\db\models\fields\related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x0000020068212F98>>": "likes.user" must be a "User" instance.
+"POST /article/clicklike/13 HTTP/1.1" 500 83729
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2992
+"GET /userprofile/login/ HTTP/1.1" 200 4821
+"GET /userprofile/register/ HTTP/1.1" 200 5140
+"POST /userprofile/login/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 17050
+"GET /notice/list/ HTTP/1.1" 200 7457
+"GET /notice/update/?article_id=16&notice_id=10 HTTP/1.1" 302 0
+"GET /article/article_detail/16/ HTTP/1.1" 200 38755
+"GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2216
+"GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 718145
+"GET /static/ckeditor/ckeditor/config.js?t=JB9C HTTP/1.1" 200 338
+"GET /static/ckeditor/ckeditor/lang/en.js?t=JB9C HTTP/1.1" 200 18888
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=JB9C HTTP/1.1" 200 47977
+"GET /static/ckeditor/ckeditor/styles.js?t=JB9C HTTP/1.1" 200 5579
+"GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=JB9C HTTP/1.1" 200 4203
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=JB9C HTTP/1.1" 200 3824
+"GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=JB9C HTTP/1.1" 200 381
+"GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1145
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=JB9C HTTP/1.1" 200 369
+"GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css?t=JB9C HTTP/1.1" 200 1306
+"GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=JB9C HTTP/1.1" 200 419
+"GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css HTTP/1.1" 200 249
+"GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=JB9C HTTP/1.1" 200 597
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=411985373e HTTP/1.1" 200 12421
+"GET /static/ckeditor/ckeditor/contents.css?t=JB9C HTTP/1.1" 200 3094
+"GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2062
+"GET /static/ckeditor/ckeditor/plugins/codesnippet/dialogs/codesnippet.js?t=JB9C HTTP/1.1" 200 1179
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/dialog.css?t=JB9C HTTP/1.1" 200 13708
+"GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+"GET /static/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js?t=JB9C HTTP/1.1" 200 3463
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png HTTP/1.1" 200 1114
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png HTTP/1.1" 200 1101
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.png HTTP/1.1" 200 1183
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/tongue_smile.png HTTP/1.1" 200 1132
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png HTTP/1.1" 200 1115
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png HTTP/1.1" 200 1084
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png HTTP/1.1" 200 1145
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png HTTP/1.1" 200 1039
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/omg_smile.png HTTP/1.1" 200 1122
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/angel_smile.png HTTP/1.1" 200 1172
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.png HTTP/1.1" 200 1220
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/shades_smile.png HTTP/1.1" 200 1204
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/envelope.png HTTP/1.1" 200 760
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png HTTP/1.1" 200 1139
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_down.png HTTP/1.1" 200 985
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/cry_smile.png HTTP/1.1" 200 1214
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/kiss.png HTTP/1.1" 200 1003
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/heart.png HTTP/1.1" 200 999
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.png HTTP/1.1" 200 959
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/devil_smile.png HTTP/1.1" 200 1220
+"GET /static/ckeditor/ckeditor/plugins/smiley/images/lightbulb.png HTTP/1.1" 200 919
+"GET /article/article_list/ HTTP/1.1" 200 17050
+"GET /static/popper/popper-1.14.4.js.map HTTP/1.1" 404 1707
+"GET /static/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 194435
+"GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 641867
+"GET / HTTP/1.1" 200 17050
+"GET /userprofile/logout/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 14750
+"GET /notice/list/ HTTP/1.1" 302 0
+"GET /userprofile/login/?next=/notice/list/ HTTP/1.1" 200 4821
+Internal Server Error: /notice/update/
+Traceback (most recent call last):
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\django虚拟环境\django-vir3.0-2\my_blog\notice\views.py", line 37, in get
+    request.user.notifications.get(id=notice_id).mark_as_read()
+  File "D:\django虚拟环境\django-vir3.0-2\lib\site-packages\django\utils\functional.py", line 225, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute 'notifications'
+"GET /notice/update/?article_id=16&notice_id=8 HTTP/1.1" 500 86142
+"GET /notice/list/ HTTP/1.1" 302 0
+"GET /userprofile/login/?next=/notice/list/ HTTP/1.1" 200 4821
+"POST /userprofile/login/ HTTP/1.1" 302 0
+"GET /article/article_list/ HTTP/1.1" 200 17050
+"GET /notice/list/ HTTP/1.1" 200 6876
+"GET /notice/update/?article_id=16&notice_id=8 HTTP/1.1" 302 0
+"GET /article/article_detail/16/ HTTP/1.1" 200 38230
+"GET /article/article_list/ HTTP/1.1" 200 16525
+"GET /static/layer/theme/default/icon.png HTTP/1.1" 200 11493
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 16525
+"GET /?page=2&order=None&search=&column=None&tag=None HTTP/1.1" 200 15419
+"GET /?page=3&order=None&search=&column=None&tag=None HTTP/1.1" 200 15869
+"GET /?page=1&order=None&search=&column=None&tag=None HTTP/1.1" 200 16525
+"GET /article/article_detail/14/ HTTP/1.1" 200 48553
+"GET /comment/post_comment/14/24 HTTP/1.1" 200 3693
+"GET /static/csrf.js HTTP/1.1" 200 1623

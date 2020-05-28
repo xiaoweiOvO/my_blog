@@ -3,22 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f72674f0-2e62-410e-ae66-1a35d6e35025" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/back_to_top_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/back_to_top.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/userprofile/personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile/personal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/userprofile/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userprofile/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprofile/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userprofile/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,17 +59,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../django-vir3.0/myDjangoBlog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/game-cat" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog\static\game-cat" />
       <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog\static\img" />
       <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog" />
       <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog\static\sticky_sidebar" />
       <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog\static" />
-      <recent name="D:\django虚拟环境\django-vir3.0-2\my_blog\static\image" />
     </key>
   </component>
   <component name="RunManager" selected="Python.mytest">
@@ -162,7 +151,17 @@
       <workItem from="1585896383893" duration="19094000" />
       <workItem from="1586432406184" duration="18222000" />
       <workItem from="1586960764736" duration="1055000" />
-      <workItem from="1587000819932" duration="897000" />
+      <workItem from="1587000819932" duration="8078000" />
+      <workItem from="1587083051702" duration="16000" />
+      <workItem from="1587779401662" duration="776000" />
+      <workItem from="1587875583159" duration="130000" />
+      <workItem from="1588294400457" duration="1790000" />
+      <workItem from="1588379820903" duration="2606000" />
+      <workItem from="1588405081452" duration="31000" />
+      <workItem from="1588408284305" duration="2631000" />
+      <workItem from="1588589834351" duration="4002000" />
+      <workItem from="1588640805855" duration="8057000" />
+      <workItem from="1590648230642" duration="101000" />
     </task>
     <servers />
   </component>
@@ -215,10 +214,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="264" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584327951642" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1587000820294">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1588408285438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587000820294" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588408285438" />
     <state x="496" y="298" width="672" height="678" key="search.everywhere.popup" timestamp="1584773482407">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
