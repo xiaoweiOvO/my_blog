@@ -55,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/game-cat" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/github参考代码/django_blog_tutorial" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -178,7 +178,10 @@
       <workItem from="1588408284305" duration="2631000" />
       <workItem from="1588589834351" duration="4002000" />
       <workItem from="1588640805855" duration="8057000" />
-      <workItem from="1590648230642" duration="3017000" />
+      <workItem from="1590648230642" duration="4037000" />
+      <workItem from="1590756800808" duration="9000" />
+      <workItem from="1591088487848" duration="62000" />
+      <workItem from="1591099587601" duration="562000" />
     </task>
     <servers />
   </component>
@@ -207,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="136" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584759769424" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1586095443518">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1591099724992">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586095443518" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591099724992" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586240630940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -25,7 +25,7 @@ SECRET_KEY = '*1ursin*zrq3^7^weouozt_7wlqpbp2@-&_23=k81-pun-se##'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.chiyumenghai.cn', '47.106.220.214']
 
 
 # Application definition
@@ -148,14 +148,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 #静态文件的配置
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     #静态文件的引用
     os.path.join(BASE_DIR,'static'),
 )
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 #通过邮箱重置密码,系统邮箱配置
 #SMTP服务器,简单邮件传输协议 只能发送邮件,不能接收邮件
 EMAIL_HOST = 'smtp.qq.com'
