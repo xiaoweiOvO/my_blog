@@ -55,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/github参考代码/django_blog_tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -181,7 +181,8 @@
       <workItem from="1590648230642" duration="4037000" />
       <workItem from="1590756800808" duration="9000" />
       <workItem from="1591088487848" duration="62000" />
-      <workItem from="1591099587601" duration="562000" />
+      <workItem from="1591099587601" duration="2135000" />
+      <workItem from="1591148822919" duration="143000" />
     </task>
     <servers />
   </component>

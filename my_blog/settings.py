@@ -160,15 +160,15 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 #SMTP服务器,简单邮件传输协议 只能发送邮件,不能接收邮件
 EMAIL_HOST = 'smtp.qq.com'
 #邮箱地址
-EMAIL_HOST_USER = '2283940851@qq.com'
+EMAIL_HOST_USER = ''
 #邮箱密码
-EMAIL_HOST_PASSWORD = 'vznnidqttqolecgg'
+EMAIL_HOST_PASSWORD = ''
 #发送邮件的端口
 EMAIL_PORT = 25
 #是否使用TLS
 EMAIL_USE_TLS = True
 #默认的发件人
-DEFAULT_FROM_EMAIL = '2283940851@qq.com'
+DEFAULT_FROM_EMAIL = ''
 
 #媒体文件配置
 MEDIA_URL = '/media/'
